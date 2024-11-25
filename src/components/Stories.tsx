@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Stories = () => {
   return (
-    <div className="p-4 bg-white rounded-lg shoadow-md overflow-scroll text-xs scrollbar-hide ">
+    <div className="p-4 bg-white rounded-lg shadow-md overflow-scroll text-xs scrollbar-hide ">
       <div className="flex gap-8 w-max ">
         {/* STORY */}
         <div className="flex flex-col items-center gap-2 cursor-pointer ">
