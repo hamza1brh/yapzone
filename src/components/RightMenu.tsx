@@ -1,10 +1,14 @@
-
-type Props = {}
-
-const RightMenu = (props: Props) => {
+import FriendRequests from "./FriendRequests";
+import Birthdays from "./Birthdays";
+import Ad from "./Ad";
+const RightMenu = ({ userId }: { userId?: string }) => {
   return (
-    <div>RightMenu</div>
-  )
-}
+    <div className="flex flex-col gap-6">
+      <FriendRequests />
+      <Birthdays />
+      <Ad />
+    </div>
+  );
+};
 
-export default RightMenu
+export default RightMenu;
